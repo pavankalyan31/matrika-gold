@@ -1,175 +1,178 @@
 <section class="mb-2">
-  <nav class="navbar navbar-expand-lg bg fixed-top p-0">
-    <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-4 logos">
-            <div>
-              <img routerLink="/" class="logo" src="assets/header/Matrika Logo.png">
-            </div>
-          <div class="vline mx-2"></div>
-              <a href="https://goldsikka.com/" target="_blank">
-                <img class="logo" src="assets/header/Mask group (2).png"></a>    
-          </div>            
-        </div>
-
-        <div class="col-lg-4" id="group">
-          <form>
-            <select class="group">
-              <option>Select Category</option>
-              <option>Baju Band</option>
-              <option>Nose Pins</option>
-              <option>Atm</option>
-              <option>Mangalasutaram</option>
-              <option>Lockets</option>
-              <option>Earrings</option>
-              <option>Haram</option>
-              <option>Jhumka</option>
-              <option>Necklace</option>
-              <option>Rings</option>
-              <option>Bracelets</option>
-              <option>Bangles</option>
-            </select>
-          </form>
-        </div>
-      
-        <div class="col-lg-4">
-              <div class="userdetails">
-                  <div class="user-dropdown">
-                      <button class="user-dropbtn" (click)="toggleDropdown()">
-                          <i class="fa-regular fa-user"></i>
-                          <span>Account</span>
-                      </button>
-                      <div class="user-dropdown-content" [class.show]="isDropdownOpen">
-                          <div class="sub-user-wrap">
-                              <div class="sub-user">
-                                  <div class="user-info">
-                                      <h3>Your Account</h3>
-                                      <p>Track your orders, Manage Payment, Edit Profile, and Much More...</p>
-                                      <button class="btn-1" type="button" routerLink="/Login">Log In</button>
-                                      <button class="btn-2" type="button" routerLink="/Signup">Sign Up</button>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div routerLink="/Login">
-                      <i class="fa-regular fa-heart"></i>
-                      <p>Wishlist</p>
-                  </div>
-                  <div routerLink="/Login">
-                      <i class="fa-solid fa-cart-shopping"></i>
-                      <p>Cart</p>
-                  </div>
+  <div>
+    <nav class="navbar navbar-expand-lg bg fixed-top p-0">
+      <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 logos">
+              <div>
+                <img routerLink="/" class="logo" src="assets/header/Matrika Logo.png">
               </div>
-          </div>     
-</div>
-</nav> 
-
-  <div class="navbar navbar-expand-lg fixed-top1">
-    <div class="container-fluid">
-      <form class="d-flex" role="search" id="hidden">
-        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-      </form>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <div class="nav-item dropdown">
-            <p class="nav-link dropdown dropbtn"  role="button" aria-expanded="false" data-bs-toggle="dropdown">
-              Baju Band
-            </p>
-            <div class="dropdown-content">
-              <div class="dropdown dropend">
-                <p role="button" routerLink="/bajuband">Kundan Baju</p>
-                <p role="button" routerLink="/bajuband">Band</p>
-              </div>
-            </div>
+            <div class="vline mx-2"></div>
+                <a href="https://goldsikka.com/" target="_blank">
+                  <img class="logo" src="assets/header/Mask group (2).png"></a>    
+            </div>            
           </div>
-          <div class="dropdown">
-            <p class="nav-link dropdown dropbtn"  h3role="button" aria-expanded="false" data-bs-toggle="dropdown">
-              Nose Pins
-            </p>
-            <div class="dropdown-content">
-              <div class="dropdown dropend">
-                <p role="button" routerLink="/StoneNosePin">Stone Nose Pin</p>
-              </div>
-            </div>
+  
+          <div class="col-lg-4" id="group">
+            <form>
+              <select class="group">
+                <option>Select Category</option>
+                <option>Baju Band</option>
+                <option>Nose Pins</option>
+                <option>Atm</option>
+                <option>Mangalasutaram</option>
+                <option>Lockets</option>
+                <option>Earrings</option>
+                <option>Haram</option>
+                <option>Jhumka</option>
+                <option>Necklace</option>
+                <option>Rings</option>
+                <option>Bracelets</option>
+                <option>Bangles</option>
+              </select>
+            </form>
           </div>
-
-          <div class="dropdown">
-            <p class="nav-link dropdown dropbtn" h3role="button" aria-expanded="false" data-bs-toggle="dropdown">
-              ATM
-            </p>
-            <div class="dropdown-content">
-              <p role="button" routerLink="/atm">ATM </p>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <p class="nav-link dropdown dropbtn" h3role="button" aria-expanded="false" data-bs-toggle="dropdown">
-              Bangles
-            </p>
-            <div class="dropdown-content">
-              <p role="button" routerLink="/Bangles">RUBY </p>
-              <p role="button" routerLink="/Bangles">EMERALD</p>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <p class="nav-link dropdown dropbtn"  h3role="button" aria-expanded="false" data-bs-toggle="dropdown">
-              Mangalasuatram
-            </p>
-            <div class="dropdown-content">
-              <p role="button" routerLink="/BlackBeeds">BLACK BEEDS </p>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <p class="nav-link dropdown dropbtn"  role="button" aria-expanded="false">
-              Lockets
-            </p>
-            <div class="dropdown-content">
-              <p role="button" routerLink="/StoneLocket">Stone Locket </p>
-              <p role="button" routerLink="/TheModernLocket">The Modern pocket </p>
-              <p role="button" routerLink="/AlphabetUnisexLockets">Alphabet Unisex Lockets </p>
-              <p role="button" routerLink="/RedRoseLockets">Red Rose Lockets </p>
-              <p role="button" routerLink="/FancyLockets">Fancy Lockets </p>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <p class="nav-link dropdown dropbtn"  role="button" aria-expanded="false">
-              Earrings
-            </p>
-            <div class="dropdown-content">
-              <p role="button" routerLink="/Tops">Tops </p>
-              <p role="button" routerLink="/JBalis">J Balis</p>
-              <p role="button" routerLink="/FancyEarrings">Fancy Earrings</p>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <p class="nav-link dropdown dropbtn" role="button" aria-expanded="false">
-              Haram
-            </p>
-            <div class="dropdown-content">
-              <p role="button" routerLink="/Antique">Antique</p>
-              <p role="button" routerLink="/HaramSet">Haram Set</p>
-              <p role="button" routerLink="/FancyHaar">Fancy Haar</p>
-            </div>
-          </div>
-
-          <div class="dropdown">
-            <p class="nav-link dropdown dropbtn" routerLink="/ViewMore" role="button" aria-expanded="false">View More</p>
-          </div>
-
-          <div class="dropdown">
-            <a class="nav-link dropdown dropbtn" routerLink="/GiftCard"  role="button" aria-expanded="false">Gift Cards</a>
-          </div>
-        </ul>
-      </div>
-      <button class="navbar-toggler close-btn" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Close navigation">
-        <span class="navbar-toggler-icon"></span>
-        <span class="close-icon"></span>
-      </button>
-    </div>
+        
+          <div class="col-lg-4">
+                <div class="userdetails">
+                    <div class="user-dropdown">
+                        <button class="user-dropbtn" (click)="toggleDropdown()">
+                            <i class="fa-regular fa-user"></i>
+                            <span>Account</span>
+                        </button>
+                        <div class="user-dropdown-content" [class.show]="isDropdownOpen">
+                            <div class="sub-user-wrap">
+                                <div class="sub-user">
+                                    <div class="user-info">
+                                        <h3>Your Account</h3>
+                                        <p>Track your orders, Manage Payment, Edit Profile, and Much More...</p>
+                                        <button class="btn-1" type="button" routerLink="/Login">Log In</button>
+                                        <button class="btn-2" type="button" routerLink="/Signup">Sign Up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div routerLink="/Login">
+                        <i class="fa-regular fa-heart"></i>
+                        <p>Wishlist</p>
+                    </div>
+                    <div routerLink="/Login">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>Cart</p>
+                    </div>
+                </div>
+            </div>     
   </div>
+  </nav> 
+  <nav>
+    <div class="navbar navbar-expand-lg p-0 mt-5">
+      <div class="container-fluid">
+        <form class="d-flex" role="search" id="hidden">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <div class="nav-item dropdown">
+              <p class="nav-link dropdown dropbtn"  role="button" aria-expanded="false" data-bs-toggle="dropdown">
+                Baju Band
+              </p>
+              <div class="dropdown-content">
+                <div class="dropdown dropend">
+                  <p role="button" routerLink="/bajuband">Kundan Baju</p>
+                  <p role="button" routerLink="/bajuband">Band</p>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown">
+              <p class="nav-link dropdown dropbtn"  h3role="button" aria-expanded="false" data-bs-toggle="dropdown">
+                Nose Pins
+              </p>
+              <div class="dropdown-content">
+                <div class="dropdown dropend">
+                  <p role="button" routerLink="/StoneNosePin">Stone Nose Pin</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="dropdown">
+              <p class="nav-link dropdown dropbtn" h3role="button" aria-expanded="false" data-bs-toggle="dropdown">
+                ATM
+              </p>
+              <div class="dropdown-content">
+                <p role="button" routerLink="/atm">ATM </p>
+              </div>
+            </div>
+  
+            <div class="dropdown">
+              <p class="nav-link dropdown dropbtn" h3role="button" aria-expanded="false" data-bs-toggle="dropdown">
+                Bangles
+              </p>
+              <div class="dropdown-content">
+                <p role="button" routerLink="/Bangles">RUBY </p>
+                <p role="button" routerLink="/Bangles">EMERALD</p>
+              </div>
+            </div>
+  
+            <div class="dropdown">
+              <p class="nav-link dropdown dropbtn"  h3role="button" aria-expanded="false" data-bs-toggle="dropdown">
+                Mangalasuatram
+              </p>
+              <div class="dropdown-content">
+                <p role="button" routerLink="/BlackBeeds">BLACK BEEDS </p>
+              </div>
+            </div>
+  
+            <div class="dropdown">
+              <p class="nav-link dropdown dropbtn"  role="button" aria-expanded="false">
+                Lockets
+              </p>
+              <div class="dropdown-content">
+                <p role="button" routerLink="/StoneLocket">Stone Locket </p>
+                <p role="button" routerLink="/TheModernLocket">The Modern pocket </p>
+                <p role="button" routerLink="/AlphabetUnisexLockets">Alphabet Unisex Lockets </p>
+                <p role="button" routerLink="/RedRoseLockets">Red Rose Lockets </p>
+                <p role="button" routerLink="/FancyLockets">Fancy Lockets </p>
+              </div>
+            </div>
+  
+            <div class="dropdown">
+              <p class="nav-link dropdown dropbtn"  role="button" aria-expanded="false">
+                Earrings
+              </p>
+              <div class="dropdown-content">
+                <p role="button" routerLink="/Tops">Tops </p>
+                <p role="button" routerLink="/JBalis">J Balis</p>
+                <p role="button" routerLink="/FancyEarrings">Fancy Earrings</p>
+              </div>
+            </div>
+  
+            <div class="dropdown">
+              <p class="nav-link dropdown dropbtn" role="button" aria-expanded="false">
+                Haram
+              </p>
+              <div class="dropdown-content">
+                <p role="button" routerLink="/Antique">Antique</p>
+                <p role="button" routerLink="/HaramSet">Haram Set</p>
+                <p role="button" routerLink="/FancyHaar">Fancy Haar</p>
+              </div>
+            </div>
+  
+            <div class="dropdown">
+              <p class="nav-link dropdown dropbtn" routerLink="/ViewMore" role="button" aria-expanded="false">View More</p>
+            </div>
+  
+            <div class="dropdown">
+              <a class="nav-link dropdown dropbtn" routerLink="/GiftCard"  role="button" aria-expanded="false">Gift Cards</a>
+            </div>
+          </ul>
+        </div>
+        <button class="navbar-toggler close-btn" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Close navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="close-icon"></span>
+        </button>
+      </div>
+    </div>
+  </nav>      
+  </div>  
 </section>
