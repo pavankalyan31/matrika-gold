@@ -1,0 +1,135 @@
+<section class="mt-2 mb-2">
+    <div>
+        <img class="band-img" src="https://matrika.gold/assets/Rings.png">
+    </div>    
+</section>
+<section class="mt-4 mb-2">
+<div class="container text-center Filter">
+  <div class="row">
+    <div class="col by">
+      <p>Fliter By:</p>
+    </div>
+
+    <div class="col">
+      <div class="dropdown">
+        <a class="btn type-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">TYPE</a>                  
+        <ul class="dropdown-menu">
+              <li class="dropdown-item">
+                <input (click)="onClick('Gold')" type="checkbox" [checked]="tagSelected === 'Gold'"> Gold
+              </li>
+              <li class="dropdown-item">
+                <input (click)="onClick('Silver')" type="checkbox" [checked]="tagSelected === 'Silver'"> Silver
+              </li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="col">
+      <div class="dropdown">
+        <a class="btn type-btn dropdown-toggle"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          PRICE
+        </a>                  
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">
+            <input (click)="onClick('Upto -₹30000')" type="checkbox" [checked]="tagSelected === 'Upto -₹30000'">Upto -₹30000
+          </li>
+          <li class="dropdown-item">
+            <input (click)="onClick('Upto - ₹60000')" type="checkbox" [checked]="tagSelected === 'Upto - ₹60000'">Upto - ₹60000
+        </li>
+        <li class="dropdown-item">
+            <input (click)="onClick('Upto - ₹100000')" type="checkbox" [checked]="tagSelected === 'Upto - ₹100000'">Upto - ₹100000
+        </li>
+
+        <li class="dropdown-item">
+            <input (click)="onClick('Upto - ₹150000')" type="checkbox" [checked]="tagSelected === 'Upto - ₹150000'">Upto - ₹150000
+        </li>
+        <li class="dropdown-item">
+            <input (click)="onClick('Above - ₹150000')" type="checkbox" [checked]="tagSelected === 'Above - ₹150000'">Above - ₹150000
+        </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="dropdown">
+        <a class="btn type-btn dropdown-toggle"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          CARAT
+        </a>                  
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">
+            <input (click)="onClick('22 Carats')" type="checkbox" [checked]="tagSelected === '22 Carats'">22 Carats
+          </li>
+          <li class="dropdown-item">
+            <input (click)="onClick('24 Carats')" type="checkbox" [checked]="tagSelected === '24 Carats'">24 Carats
+        </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="dropdown">
+        <a class="btn type-btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          WEIGHT
+        </a>                  
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">
+            <input (click)="onClick('Upto - 5gms')" type="checkbox" [checked]="tagSelected === 'Upto - 5gms'">Upto - 5gms
+          </li>
+          <li class="dropdown-item">
+            <input (click)="onClick('Upto - 10gms')" type="checkbox" [checked]="tagSelected === 'Upto - 10gms'">Upto - 10gms
+        </li>
+        <li class="dropdown-item">
+            <input (click)="onClick('Upto - 15gms')" type="checkbox" [checked]="tagSelected === 'Upto - 15gms'">Upto - 15gms
+        </li>
+        <li class="dropdown-item">
+            <input (click)="onClick('Upto - 20gms')" type="checkbox" [checked]="tagSelected === 'Upto - 20gms'">Upto - 20gms
+        </li>
+        <li class="dropdown-item">
+            <input (click)="onClick('Upto - 50gms')" type="checkbox" [checked]="tagSelected === 'Upto - 50gms'">Upto - 50gms
+        </li>
+        <li class="dropdown-item">
+            <input (click)="onClick('Above - 50gms')" type="checkbox" [checked]="tagSelected === 'Above - 50gms'">Above - 50gms
+        </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col">
+      <div class="dropdown">
+        <a class="btn reset-btn  reset"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Reset Filter
+        </a>                  
+    </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- 
+
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 by">
+                
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2">
+               
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2">
+              
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                
+            </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2">
+               
+                </div>
+
+            <div class="col-lg-2 col-md-2 col-sm-2">
+                
+            </div>
+        </div>
+    </div>    
+</section> -->

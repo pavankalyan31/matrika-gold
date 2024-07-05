@@ -1,0 +1,33 @@
+.sbc{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+.wrapper img{
+    width: 120px;
+    height: 120px;
+    transition: scale 400ms;
+}
+
+.wrapper:hover img{
+    scale: 120%;
+}
+
+.wrappermp{
+    overflow: hidden;
+}
+
+.wrappermp img{
+    width: 40px;
+    height: 40px;
+    transition: scale 400ms;
+}
+
+.wrappermp:hover img{
+    scale: 120%;
+}

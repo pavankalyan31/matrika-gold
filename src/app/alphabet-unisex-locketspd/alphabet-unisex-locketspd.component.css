@@ -1,0 +1,105 @@
+.dots{
+    display: flex;
+    justify-content: right;
+    column-gap: 10px;
+}
+
+h4{ 
+    margin-bottom: 20px;
+}
+
+.pro-color{
+    color: grey;
+}
+
+.pro-color2{
+    color: black;
+}
+
+.size{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.price{
+    color: #630914;
+}
+
+.bsi{
+    display: flex;
+    justify-content: left;
+}
+
+.buynow{
+    background-color: #630914;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.pd{
+    text-align: start;
+}
+
+.btn{
+    width: 20%;
+    color: black;
+}
+
+.info{
+    color: grey;
+    justify-content: space-evenly;
+}
+
+.card{
+    border: none;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 14px;
+    color: grey;
+}
+
+.card-text{
+    margin-bottom: 0px;
+}
+
+.card .card-img-top{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    .main-img{
+        width: 70%;  
+        display: flex;
+        justify-content: center;
+        margin-left: 20%;
+    }
+    
+    .content{
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .size{
+       margin-left: 45%;        
+    }
+}

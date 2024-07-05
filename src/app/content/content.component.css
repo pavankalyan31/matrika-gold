@@ -1,0 +1,256 @@
+.card{
+    border: none;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 14px;
+    color: grey;
+}
+
+.card-text{
+    margin-bottom: 0px;
+}
+
+.btn{
+    background-color: maroon;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+.card .card-img-top{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Purity{
+    background-color: #eae3e4;
+}
+
+.Purity .pur{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.gif{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.may{
+    font-weight: lighter; 
+    color: #803841;;
+}
+
+.live{
+    font-weight: bold;
+    color: black;
+}
+.goldbar{
+    width: 50px; 
+    height: 50px;
+}
+
+.gram{
+    color: green;
+}
+
+.gram1{
+    color: red;
+}
+
+.sbc{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.wrapper{
+    overflow: hidden;
+}
+
+.wrappermp img{
+    width: 40px;
+    height: 40px;
+    transition: scale 400ms;
+}
+
+.wrapper:hover img{
+    scale: 120%;
+}
+
+.wrapper a{
+    color: black;
+    text-decoration: none;
+}
+
+.underbar {
+    width: 200px;
+}
+
+.s1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.s2 {
+    margin-right: 10px;
+    white-space: nowrap; 
+    margin-left: 20px;
+}
+
+.horizontal-scroll {
+    overflow-x: auto;
+    padding-left: 30px; 
+    margin-left: -50px; 
+    margin-right: -20px;
+}
+
+.horizontal-scroll .s1 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
+    padding-left: 10px; 
+}
+
+.horizontal-scroll .s2 {
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    width: 3px; 
+}
+
+.horizontal-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 3px; 
+}
+
+.horizontal-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.gift{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.do-img{
+    width: 100%;
+    height: 235px;
+    border-radius: 10px;
+}
+
+.do-img1{
+    width: 100%;
+    height: 235px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.do-img2{
+    width: 100%;
+    height: 495px;
+    border-radius: 10px;
+}
+
+.do-img3{
+    width: 100%;
+    height: 235px;
+    border-radius: 10px;
+}
+
+.do-img4{
+    width: 100%;
+    height: 235px;
+    border-radius: 10px;
+    margin-top: 25px;  
+}
+
+.fbj{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.shops{
+    text-align: left;
+}
+
+
+@media screen and (min-width:320px) and (max-width:768px) {
+      
+    .do-img{
+        width: 100%;
+        height: 235px;
+        border-radius: 10px;
+    }
+    
+    .do-img1{
+        width: 100%;
+        height: 235px;
+        border-radius: 10px;
+        margin-top: 25px;
+    }
+    
+    .do-img2{
+        width: 100%;
+        height: 495px;
+        border-radius: 10px;   
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .do-img3{
+        width: 100%;
+        height: 235px;
+        border-radius: 10px;
+    }
+    
+    .do-img4{
+        width: 100%;
+        height: 235px;
+        border-radius: 10px;
+        margin-top: 25px;  
+    }
+
+    .fest-img{
+        margin-top: 5px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .s1 {
+        display: flex; 
+        flex-wrap: nowrap;
+        overflow-x: auto; 
+        justify-content: flex-start; 
+        margin-bottom: 0; 
+        margin-left: 0;
+    }
+    
+    .s2 {
+        margin-right: 10px; 
+        flex: 0 0 auto; 
+    }
+    
+    .s1 > div {
+        scroll-padding-left: 0; 
+      }
+    }

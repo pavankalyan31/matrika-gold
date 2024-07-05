@@ -1,0 +1,40 @@
+.band-img{
+    width: 100%;
+    font-weight: 600;
+}
+
+.by{
+    font-size: 20px;
+    color: grey;
+    margin-top: 10px;
+}
+
+.type-btn{
+    background-color:  #f0edee;
+    font-size: 16px;    
+}
+
+.reset-btn{
+    background-color: rgb(244, 54, 54);
+    color: white;
+}
+.dropdown-item input li{
+    text-decoration: none;
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+    
+    .by{
+        font-size: 14px;
+    }
+
+    .type-btn{
+        
+        font-size: 14px;    
+        width: 100%;
+    }
+    
+    .reset-btn{
+        font-size: 14px;
+    }
+}

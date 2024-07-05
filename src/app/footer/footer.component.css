@@ -1,0 +1,44 @@
+footer{
+  width: 100%;
+}
+
+.footer-background {
+  background-color: #eae3e4;
+  padding: 15px;
+  color:  #630914;;
+}
+
+.hline{
+  width: 100px;
+  border: 1px solid #9D676E;
+}
+
+a{
+text-decoration: none;
+color:#77838f;
+}
+
+.pay-img {
+  width: 48px;
+  height: 19px;
+  padding-left: 5px;
+}
+
+.footer-img{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.twit{
+  width: 35px;
+}
+
+.twit a{
+  text-decoration: none;
+}
+
+.pin{
+  margin-right: -80%;
+}
+
